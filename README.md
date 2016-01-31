@@ -33,3 +33,6 @@ A journey through time...
   - I want automation for deployment (maybe Jenkins)
   - Ideally this repo should be used, I don't want to have to move this repo to Bitbucket for automation
   - I want a clean folder structure, something that's simple to understand and work with
+
+##### 6. What app should I build
+* I want to make an app that is basically an online version of the Android app "Fuelio". Why? Because it seems like a good starting point. I already have data for it from the past years I've been using the app so that's cool. I would be working with something that is actually a real life application that I could use. It would not be much fun to build something as an example app. At the end of the day I will build the app in this repo. I would most probably have to strip out all the app related stuff to make it a true starter kit. But we'll see where it goes...

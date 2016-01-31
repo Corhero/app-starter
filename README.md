@@ -47,7 +47,7 @@ A journey through time...
 * The Sass gem installation was successful.
 * If I type `sass -v` into terminal it spits out "Sass 3.4.21 (Selective Steve)". Looks good to me.
 * If I remember correctly I need to run `sass --watch styles.scss:styles.css` for basic functionality.
-* Renaming my stylesheet extension to `.scss`.
+* Renaming my stylesheet 'styles.css' to 'styles.scss'.
 * Running `sass --watch styles.scss:styles.css` created a folder called `.sass-cache`, a file called `styles.css` and another file `styles.css.map`. If I update my `styles.scss` then the watch triggers and updates these files and the cache directory.
 * This is fine for now. However, I don't want to add the `.map` file and the cache dir to the repo.
-* I'll create a `.gitignore` file and add the cache dir and the `.map` file
+* I'll create a `.gitignore` file and add the cache dir and the `.map` file so they get excluded.

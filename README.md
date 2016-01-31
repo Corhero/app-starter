@@ -40,3 +40,14 @@ A journey through time...
 ##### 7. Splitting out styles and JavaScript
 * Up until now my styles and js have been sitting on the markup file directly. Because this will become unmaintainable I will separate it out. I now have a two more files in my project: 'styles.css' and 'app.js'. Makes things a bit nicer... On refresh it still works. I had to replace the style tag in the head with a link tag. For the script I simply removed my JavaScript code and added a 'src' attribute with the file path. For now all file paths are relatively declared which works perfectly.
 * PS: If I use absolute paths, e.g. `src="/app.js"` then it complains that the files cannot be found. Makes sense as we're not serving it up directly but rather only browsing the index.html file instead of accessing it through a server.
+
+##### 8. I need Sass in my life
+* Currently I only have on rule in my styles.css, but trust me I don't want to write pure CSS. I want to use Sass from the start. Let's get that going. As far as I know I only need Ruby or something to use Sass.
+* Yep, only need Ruby. On Mac's Ruby comes pre installed. So if you're using another machine make sure to install Ruby. For me,  only need to run `gem install sass` to get Sass. Awesome.
+* The Sass gem installation was successful.
+* If I type `sass -v` into terminal it spits out "Sass 3.4.21 (Selective Steve)". Looks good to me.
+* If I remember correctly I need to run `sass --watch styles.scss:styles.css` for basic functionality.
+* Renaming my stylesheet extension to `.scss`.
+* Running `sass --watch styles.scss:styles.css` created a folder called `.sass-cache`, a file called `styles.css` and another file `styles.css.map`. If I update my `styles.scss` then the watch triggers and updates these files and the cache directory.
+* This is fine for now. However, I don't want to add the `.map` file and the cache dir to the repo.
+* I'll create a `.gitignore` file and add the cache dir and the `.map` file

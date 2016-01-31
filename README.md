@@ -34,5 +34,9 @@ A journey through time...
   - Ideally this repo should be used, I don't want to have to move this repo to Bitbucket for automation
   - I want a clean folder structure, something that's simple to understand and work with
 
-##### 6. What app should I build
+##### 6. What app should I build?
 * I want to make an app that is basically an online version of the Android app "Fuelio". Why? Because it seems like a good starting point. I already have data for it from the past years I've been using the app so that's cool. I would be working with something that is actually a real life application that I could use. It would not be much fun to build something as an example app. At the end of the day I will build the app in this repo. I would most probably have to strip out all the app related stuff to make it a true starter kit. But we'll see where it goes...
+
+##### 7. Splitting out styles and JavaScript
+* Up until now my styles and js have been sitting on the markup file directly. Because this will become unmaintainable I will separate it out. I now have a two more files in my project: 'styles.css' and 'app.js'. Makes things a bit nicer... On refresh it still works. I had to replace the style tag in the head with a link tag. For the script I simply removed my JavaScript code and added a 'src' attribute with the file path. For now all file paths are relatively declared which works perfectly.
+* PS: If I use absolute paths, e.g. `src="/app.js"` then it complains that the files cannot be found. Makes sense as we're not serving it up directly but rather only browsing the index.html file instead of accessing it through a server.

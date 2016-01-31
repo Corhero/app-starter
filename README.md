@@ -8,3 +8,7 @@ Start by creating a repo on Github called 'app-starter'. Initialize it with a LI
 2. Creating index.html
 
 I will add an index.html with some basic markup. Done. It has a title and a H1. That's pretty much it. At this stage I can open the file in browser by navigating to 'file:///Users/cornelius/projects/app-starter/index.html'. This path will be different depending on what operating system you run, what your username is and where you store the files and folders. In this case I am on a Mac and my username is 'cornelius', I created a folder called 'projects' and that is also where I cloned this repo.
+
+3. Adding style and basic JavaScript
+
+I want the heading in my 'index.html' to be blue. I also want to make the console print 'Hello World!'. I added a style tag in the head of my HTML. I also went and added a script tag at the bottom of my markup which says hello. When I hit refresh on my browser the colour is blue and the console says hello. Awesome! :P #commitandpushtomaster

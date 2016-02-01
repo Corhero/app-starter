@@ -59,3 +59,6 @@ A journey through time...
 * I'll move all my files there for now. To keep Sass working I would `cd` into the 'src' directory and run the `sass --watch styles.scss:styles.css` command from there.
 * So when I refresh the browser it fails. I obviously have to change the path, 'file:///Users/cornelius/projects/app-starter/src/index.html' does the trick.
 * I don't have to amend my '.gitignore' as it knows to exclude the stuff there no matter what the folder structure.
+
+##### 10. Minifying Sass
+* To get my stylesheet compressed I simply had to adjust my Sass command to `sass --watch styles.scss:styles.css --style compressed`

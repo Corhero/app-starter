@@ -7,3 +7,6 @@ for (var i = 0; i < 100; i++ ) {
 var endTime = (new Date()).getMilliseconds();
 var timeDifference = endTime - startTime;
 console.log('Done! And it only took', timeDifference + 'ms.');
+
+// Testing jQuery
+$('h1').animate({opacity: 0.5}, 1500, 'linear');

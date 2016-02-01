@@ -110,3 +110,14 @@ A journey through time...
   * I'm thinking of keeping things as component driven as possible. So basically I would want each page/view of the app to load only the styles and JS that it needs.
   * Alternatively, I might just load everything upfront. We'll have to see what works out in the end and what makes more sense from a maintainability aspect as well as from a performance aspect.
 * Putting this decision on hold.
+
+##### 18. jQuery and package.json
+* I don't necessarily need jQuery, but seeing as it's a dependency for Backbone I thought it's a good starting point to add it.
+* To get the ball rolling I will need a 'package.json' file.
+  * Command line, `cd` to root of project and hit `npm init`. I simply followed the prompts and kept most things as the default.
+* Now that we have a 'package.json' file we can install npm packages and save them to this file. This will make it easy for other people to clone this repo and be able to also install these packages that are needed for the project.
+* Let's install jQuery, `npm i jquery --save`. Install was successful.
+* Before I continue I will tell git to ignore the 'node_modules' folder. This is the folder that npm created when it installed jQuery. I know the 'node_modules' folder will get massive. Hence I don't want it in the repo.
+* Now I can go into 'index.html' and include jQuery, the path is a bit awkward - but it'll have to do for now `<script src="../node_modules/jquery/dist/jquery.min.js"></script>`.
+* I've added an animation to the H1 to test jQuery and it works perfectly. Only annoying thing? I have to run `minify app.js` every single time I make a change to my JavaScript. This needs to be automated...
+* Another thing that's starting to happen is that I now have two JS files included in my markup. Ideally I only want a single script tag in the markup.

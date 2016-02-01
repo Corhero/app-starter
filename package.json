@@ -1,0 +1,22 @@
+{
+  "name": "app-starter",
+  "version": "1.0.0",
+  "description": "A journey through time...",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Corhero/app-starter.git"
+  },
+  "author": "Cornelius Weidmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Corhero/app-starter/issues"
+  },
+  "homepage": "https://github.com/Corhero/app-starter",
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}

@@ -103,3 +103,10 @@ A journey through time...
 * Also have to change the paths in the stylesheet for the font files...
 * Ok everything back to normal after those path changes.
 * Running the Sass watch command via the command line is getting a bit annoying. #justsaying
+
+##### 17. Webpack or gulp?
+* I really want to use webpack but I don't know it. I know gulp as I have worked with it before.
+* I'm planning to build a massive app, maybe not in this repo, but ultimately that is the plan.
+  * I'm thinking of keeping things as component driven as possible. So basically I would want each page/view of the app to load only the styles and JS that it needs.
+  * Alternatively, I might just load everything upfront. We'll have to see what works out in the end and what makes more sense from a maintainability aspect as well as from a performance aspect.
+* Putting this decision on hold.

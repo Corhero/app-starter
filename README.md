@@ -121,3 +121,6 @@ A journey through time...
 * Now I can go into 'index.html' and include jQuery, the path is a bit awkward - but it'll have to do for now `<script src="../node_modules/jquery/dist/jquery.min.js"></script>`.
 * I've added an animation to the H1 to test jQuery and it works perfectly. Only annoying thing? I have to run `minify app.js` every single time I make a change to my JavaScript. This needs to be automated...
 * Another thing that's starting to happen is that I now have two JS files included in my markup. Ideally I only want a single script tag in the markup.
+
+##### 19. How to get jQuery if I clone the repo on another machine?
+* Basically clone the repo and then run `npm install` in the root to get all the dependencies. Simple!

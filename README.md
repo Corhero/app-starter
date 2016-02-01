@@ -93,3 +93,13 @@ A journey through time...
 * The generated zip contains a lot of files. I will create a folder called 'fonts' and put all the font files there. I will also add the CSS for the font-family to my stylesheet.
 * I had to adjust the path in the stylesheet to point to the 'fonts' folder in order for the font to work.
 * Ok awesome. My heading is now in Montserrat.
+
+##### 16. Creating more structure
+* Having the 'fonts' directory made me want to put my stylesheets, images and JS into their own folders as well. Let's do that.
+* Created a folder 'images' for all my images, moved images there.
+* Created 'scripts' for my JS files.
+* Created 'styles' for my CSS.
+* After this move nothing works besides the markup. Have to make adjustments to the paths in 'index.html'.
+* Also have to change the paths in the stylesheet for the font files...
+* Ok everything back to normal after those path changes.
+* Running the Sass watch command via the command line is getting a bit annoying. #justsaying

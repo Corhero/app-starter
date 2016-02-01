@@ -51,3 +51,11 @@ A journey through time...
 * Running `sass --watch styles.scss:styles.css` created a folder called `.sass-cache`, a file called `styles.css` and another file `styles.css.map`. If I update my `styles.scss` then the watch triggers and updates these files and the cache directory.
 * This is fine for now. However, I don't want to add the `.map` file and the cache dir to the repo.
 * I'll create a `.gitignore` file and add the cache dir and the `.map` file so they get excluded.
+
+##### 9. I already don't like the folder structure
+* Previously I added Sass and it already made the folder a bit messy :D
+* I'll create a folder for the app called 'src'.
+  * The plan is to do all of my work in that folder. Ultimately there will be more folders like 'dist', 'test', 'build' or something like that. The plan is that I'll work in 'src' and that the end result of any work I do lands in 'dist'. Basically the idea is to only have the 'dist' folder contents on the server and everything works perfectly as it should. We'll see about that though as we go along. Might not all work out as what I have planned right now.
+* I'll move all my files there for now. To keep Sass working I would `cd` into the 'src' directory and run the `sass --watch styles.scss:styles.css` command from there.
+* So when I refresh the browser it fails. I obviously have to change the path, 'file:///Users/cornelius/projects/app-starter/src/index.html' does the trick.
+* I don't have to amend my '.gitignore' as it knows to exclude the stuff there no matter what the folder structure.

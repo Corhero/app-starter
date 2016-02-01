@@ -80,3 +80,7 @@ A journey through time...
 * In 'src' I simply ran `minify app.js`. This created a new file 'app.min.js'. It looks minified, but I'm not sure if I trust this minification for bigger code bases. For now it's fine.
 * I had to amend my `index.html` to point to the new minified JS file.
 * Everything still works. Cool.
+
+##### 14. Let's make our app a bit more complex
+* At this stage a blue heading and some messages being logged to the console are really not ground-breaking.
+* I'll add a favicon and the Fuelio logo.

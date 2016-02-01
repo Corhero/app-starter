@@ -84,3 +84,12 @@ A journey through time...
 ##### 14. Let's make our app a bit more complex
 * At this stage a blue heading and some messages being logged to the console are really not ground-breaking.
 * I'll add a favicon and the Fuelio logo.
+
+##### 15. Using a custom font
+* I want to use a custom font for my app. Why? Because most apps use some sort of custom font or at the very least they use an icon font file so icons can be easily maintained and styled.
+* So I went to Google Fonts to get Montserrat https://www.google.com/fonts#UsePlace:use/Collection:Montserrat. At that URL there is a small download button to the right which allows downloading this free font as a zip (I only downloaded the regular font).
+* I then went to FontSquirrel http://www.fontsquirrel.com/tools/webfont-generator to generate and download the webfont.
+  * I did this by extracting the Google Fonts download and uploading the 'Montserrat-Regular.ttf' to FontSquirrel.
+* The generated zip contains a lot of files. I will create a folder called 'fonts' and put all the font files there. I will also add the CSS for the font-family to my stylesheet.
+* I had to adjust the path in the stylesheet to point to the 'fonts' folder in order for the font to work.
+* Ok awesome. My heading is now in Montserrat.

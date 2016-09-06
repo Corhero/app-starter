@@ -1,6 +1,11 @@
 # app-starter
 A journey through time...
 
+## Getting started
+1. Clone repo
+2. `cd` to root of repo and run `npm install`
+3. Naviagte to the `src` folder and open the `index.html` file in a browser
+
 #### 1. How did I get here?
 * I created a repo on Github called "app-starter". I initialised it with a `LICENSE` and `README.md`. Then on my machine I did a `git clone` of the repo. I then opened the `README.md` with a text editor and added these lines here. I committed and pushed my changes.
 * Every single time I commit I will have reached a milestone. I will have to figure out a way to make this readme better as I go along.
@@ -125,3 +130,8 @@ A journey through time...
 
 #### 19. How to get jQuery if I clone the repo on another machine?
 * Basically clone the repo and then run `npm install` in the root to get all the dependencies. Simple!
+
+#### 20. Adding basic repo instructions
+* It's been months since I worked on this and when I cloned the repo again and opened the `index.html` in my browser it was throwing a JS error in the console. Basically complaining about `$` being undefined. Doh! jQuery isn't included. I have to run `npm install` to get it...
+* I will now add instructions right at the top of this readme to make sure people know what to do with this repo.
+* Done. Commit. Push.

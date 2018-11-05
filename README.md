@@ -135,3 +135,6 @@ A journey through time...
 * It's been months since I worked on this and when I cloned the repo again and opened the `index.html` in my browser it was throwing a JS error in the console. Basically complaining about `$` being undefined. Doh! jQuery isn't included. I have to run `npm install` to get it...
 * I will now add instructions right at the top of this readme to make sure people know what to do with this repo.
 * Done. Commit. Push.
+
+#### 21. Upgrading jQuery because it is a security vulnerability to run pre v3
+* I updated the version in `package.json` and pushed those changes

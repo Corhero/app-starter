@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Corhero/app-starter",
   "dependencies": {
-    "jquery": "^2.2.0"
+    "jquery": "^3.3.1"
   }
 }
